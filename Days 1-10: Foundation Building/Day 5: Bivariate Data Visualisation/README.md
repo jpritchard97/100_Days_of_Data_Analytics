@@ -48,6 +48,7 @@ plt.xlabel('Product_Category_1')
 plt.ylabel('Purchase')
 plt.title('Product_Category_1 vs. Purchase')
 plt.show()
+```
 
 ## Conclusion
 This report now incorporates explanations for uninformative plots and provides detailed descriptions of the bivariate analysis conducted on the Black Friday sales dataset.
