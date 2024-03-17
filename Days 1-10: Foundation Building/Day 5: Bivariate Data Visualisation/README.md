@@ -35,5 +35,19 @@ plt.ylabel('Purchase')
 plt.title('Age vs. Purchase')
 plt.show()
 
+# Scatter plot of Occupation vs. Purchase
+plt.scatter(df['Occupation'], df['Purchase'])
+plt.xlabel('Occupation')
+plt.ylabel('Purchase')
+plt.title('Occupation vs. Purchase')
+plt.show()
+
+# Scatter plot of Product_Category_1 vs. Purchase
+plt.scatter(df['Product_Category_1'], df['Purchase'])
+plt.xlabel('Product_Category_1')
+plt.ylabel('Purchase')
+plt.title('Product_Category_1 vs. Purchase')
+plt.show()
+
 ## Conclusion
 This report now incorporates explanations for uninformative plots and provides detailed descriptions of the bivariate analysis conducted on the Black Friday sales dataset.
